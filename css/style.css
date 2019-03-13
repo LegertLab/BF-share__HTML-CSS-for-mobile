@@ -2,7 +2,7 @@ body {
     position: relative;
     width: 375pt;
     height: 666pt;
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	font-family: "Montserrat", Arial, sans-serif;
     font-size: 11pt;
@@ -10,19 +10,19 @@ body {
 	font-weight: 300;
 	color: rgb(68, 120, 125);
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid lightgray;
 }
 
 a {
     text-decoration: none;
     color: rgb(211, 52, 12);
+    font-weight: 600;
 }
 
 .container {
 	width: 314pt;
 	margin-right: auto;
     margin-left: auto;
-    border: 2px solid red;
 }
 
 .title {
@@ -40,11 +40,11 @@ a {
 .title::before {
     content: "";
     position: absolute;
-    top: 3pt;
+    top: 1pt;
     left: -35pt;
     width: 14.5pt;
     height: 14.5pt;
-    background-image: url("../img/close.png");
+    background-image: url("../img/close@3x.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 14.5pt;
@@ -73,7 +73,6 @@ a {
     justify-content: space-between;
     width: 65pt;
     min-height: 60pt;
-    border: 2px dotted red;
 }
 
 .documents-id::before {
@@ -84,7 +83,7 @@ a {
     width: 83.5pt;
     height: 83.5pt;
     background-color: rgb(68, 120, 125);
-    background-image: url("../img/userShape.png");
+    background-image: url("../img/userShape@3x.png");
     background-repeat: no-repeat;
     background-position: 23.5pt 23.5pt;
     background-size: 36.5pt;
@@ -99,10 +98,10 @@ a {
     width: 83.5pt;
     height: 83.5pt;
     background-color: rgb(68, 120, 125);
-    background-image: url("../img/identityCard.png");
+    background-image: url("../img/identityCard@3x.png");
     background-repeat: no-repeat;
-    background-position: 23.5pt 23.5pt;
-    background-size: 36.5pt;
+    background-position: 19.5pt 25.5pt;
+    background-size: 47pt;
     border-radius: 1.5pt;
   }
 
@@ -114,10 +113,10 @@ a {
     width: 83.5pt;
     height: 83.5pt;
     background-color: rgb(68, 120, 125);
-    background-image: url("../img/selfieOfABoyOnPhoneScreenInHisHand.png");
+    background-image: url("../img/selfieOfABoyOnPhoneScreenInHisHand@3x.png");
     background-repeat: no-repeat;
-    background-position: 23.5pt 23.5pt;
-    background-size: 36.5pt;
+    background-position: 23.5pt 17pt;
+    background-size: 44.5pt;
     border-radius: 1.5pt;
   }
 
@@ -134,4 +133,5 @@ a {
     letter-spacing: 0.45pt;
     line-height: 18.8pt;
     border: none;
+    border-radius: 1.5pt;
 }
