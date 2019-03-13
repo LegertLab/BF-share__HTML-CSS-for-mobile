@@ -1,0 +1,137 @@
+body {
+    position: relative;
+    width: 375pt;
+    height: 666pt;
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", Arial, sans-serif;
+    font-size: 11pt;
+    letter-spacing: 0.28pt;
+	font-weight: 300;
+	color: rgb(68, 120, 125);
+    text-align: center;
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(211, 52, 12);
+}
+
+.container {
+	width: 314pt;
+	margin-right: auto;
+    margin-left: auto;
+    border: 2px solid red;
+}
+
+.title {
+    position: relative;
+    font-size: 18pt;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0.45pt;
+    line-height: 18.8pt;
+    margin-left: 33pt;
+    margin-top: 60pt;
+    margin-bottom: 31.5pt;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    top: 3pt;
+    left: -35pt;
+    width: 14.5pt;
+    height: 14.5pt;
+    background-image: url("../img/close.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 14.5pt;
+  }
+
+.main-text {
+    font-size: 12.8pt;
+    font-weight: 600;
+    letter-spacing: 0.32pt;
+    margin-top: 0pt;
+    margin-bottom: 126pt;
+}
+
+.documents {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7pt;
+    margin-right: 10pt;
+}
+
+
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65pt;
+    min-height: 60pt;
+    border: 2px dotted red;
+}
+
+.documents-id::before {
+    content: "";
+    position: absolute;
+    top: -100pt;
+    left: -10pt;
+    width: 83.5pt;
+    height: 83.5pt;
+    background-color: rgb(68, 120, 125);
+    background-image: url("../img/userShape.png");
+    background-repeat: no-repeat;
+    background-position: 23.5pt 23.5pt;
+    background-size: 36.5pt;
+    border-radius: 1.5pt;
+  }
+
+.documents-licence::before {
+    content: "";
+    position: absolute;
+    top: -100pt;
+    left: -10pt;
+    width: 83.5pt;
+    height: 83.5pt;
+    background-color: rgb(68, 120, 125);
+    background-image: url("../img/identityCard.png");
+    background-repeat: no-repeat;
+    background-position: 23.5pt 23.5pt;
+    background-size: 36.5pt;
+    border-radius: 1.5pt;
+  }
+
+.documents-selfie::before {
+    content: "";
+    position: absolute;
+    top: -100pt;
+    left: -10pt;
+    width: 83.5pt;
+    height: 83.5pt;
+    background-color: rgb(68, 120, 125);
+    background-image: url("../img/selfieOfABoyOnPhoneScreenInHisHand.png");
+    background-repeat: no-repeat;
+    background-position: 23.5pt 23.5pt;
+    background-size: 36.5pt;
+    border-radius: 1.5pt;
+  }
+
+.button {
+    position: absolute;
+    bottom: 25.5pt;
+    left: 30.5pt;
+    width: 314pt;
+    height: 43.5pt;
+    background-color: rgb(211, 52, 12);
+    color: rgb(255, 255, 255);
+    font-size: 18pt;
+    font-weight: 700;
+    letter-spacing: 0.45pt;
+    line-height: 18.8pt;
+    border: none;
+}
