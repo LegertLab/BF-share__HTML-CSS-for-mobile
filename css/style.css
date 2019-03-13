@@ -139,3 +139,8 @@ a {
     border: none;
     border-radius: 1.5pt;
 }
+
+.button:hover,
+.button:focus {
+    color: lightgray;
+}
